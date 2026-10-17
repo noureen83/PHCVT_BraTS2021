@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "PH-CVT: probabilistic hybrid CNN-Transformer U-Net for brain tumour segmentation"
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given name]"
+repository-code: "[GitHub URL]"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Multi-cohort evaluation of an uncertainty-aware hybrid convolutional–transformer network for glioma segmentation"
+  authors:
+    - family-names: "[Surname]"
+      given-names: "[Given name]"
+  journal: "Scientific Reports"
+  year: 2026

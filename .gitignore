@@ -1,0 +1,10 @@
+*.pt
+*.pth
+*.h5
+*.nii
+*.nii.gz
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
+outputs/
+data/raw/

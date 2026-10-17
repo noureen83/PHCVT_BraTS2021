@@ -1,0 +1,15 @@
+# Colab provides most of these; versions are those used for the paper
+torch==2.11.0
+numpy
+pandas==2.2.3
+scipy
+scikit-learn
+h5py
+nibabel
+matplotlib
+tqdm
+kagglehub
+# TransUNet / Swin-Unet baselines (installed by the notebook when needed)
+timm==1.0.15
+einops==0.8.1
+ml-collections==1.0.0
