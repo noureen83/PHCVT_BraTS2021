@@ -98,7 +98,17 @@ The checkpoints (5 seeds × 4 architectures, 3 seeds for TransUNet, Swin-Unet an
 
 ## Citation
 
-See `CITATION.cff`. Please also cite the BraTS 2021, BraTS-Africa and UCSF-PDGM dataset papers.
+If you use this code, please cite the article:
+
+> Hameed N, Khan TF, Hussain M, Saeed S, Rauf A. Hybrid Convolutional–Transformer Glioma Segmentation: Architectural Equivalence and Uncertainty Reliability Under External Distribution Shift. *Scientific Reports* (2026).
+
+and the archived code and weights: https://doi.org/10.5281/zenodo.23434518. Machine-readable metadata is in `CITATION.cff`.
+
+Please also cite the datasets:
+
+- **BraTS 2021:** Baid U, et al. The RSNA-ASNR-MICCAI BraTS 2021 benchmark on brain tumor segmentation and radiogenomic classification. arXiv:2107.02314 (2021).
+- **BraTS-Africa:** Adewole M, et al. The Brain Tumor Segmentation (BraTS) Challenge 2023: Glioma segmentation in Sub-Saharan Africa patient population (BraTS-Africa). arXiv:2305.19369 (2023).
+- **UCSF-PDGM:** Calabrese E, et al. The University of California San Francisco Preoperative Diffuse Glioma MRI dataset. *Radiology: Artificial Intelligence* 4(6):e220058 (2022). https://doi.org/10.1148/ryai.220058
 
 ## License
 
