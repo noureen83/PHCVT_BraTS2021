@@ -1,6 +1,6 @@
 # PH-CVT: probabilistic hybrid CNN–Transformer U-Net for brain tumour segmentation
 
-Code for the manuscript *"Hybrid Convolutional–Transformer Glioma Segmentation: Architectural Equivalence and Uncertainty Reliability Under External Distribution Shift"* (submitted to *Scientific Reports*).
+Code for the manuscript *"Hybrid Convolutional–Transformer Glioma Segmentation: Architectural Equivalence and Uncertainty Reliability Under External Distribution Shift"* (manuscript under review).
 
 PH-CVT U-Net is a 2D multimodal (T1, T1ce, T2, FLAIR) residual CNN–Transformer with gated fusion, ASPP, deep supervision, an auxiliary tumour-detection head and Monte Carlo (MC) dropout uncertainty. It is benchmarked against U-Net, ResU-Net, Attention U-Net, TransUNet and Swin-Unet on BraTS 2021. It is then tested zero-shot on two external cohorts: BraTS-Africa and UCSF-PDGM lower-grade glioma.
 
@@ -98,11 +98,7 @@ The checkpoints (5 seeds × 4 architectures, 3 seeds for TransUNet, Swin-Unet an
 
 ## Citation
 
-If you use this code, please cite the article:
-
-> Hameed N, Khan TF, Hussain M, Saeed S, Rauf A. Hybrid Convolutional–Transformer Glioma Segmentation: Architectural Equivalence and Uncertainty Reliability Under External Distribution Shift. *Scientific Reports* (2026).
-
-and the archived code and weights: https://doi.org/10.5281/zenodo.23434518. Machine-readable metadata is in `CITATION.cff`.
+If you use this code, please cite the archived code and weights: https://doi.org/10.5281/zenodo.23434518 (metadata in `CITATION.cff`). The associated manuscript is under review; a citation will be added once it is published.
 
 Please also cite the datasets:
 
