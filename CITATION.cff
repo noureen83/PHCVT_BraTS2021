@@ -2,15 +2,38 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the article below."
 title: "PH-CVT: probabilistic hybrid CNN-Transformer U-Net for brain tumour segmentation"
 authors:
-  - family-names: "[Surname]"
-    given-names: "[Given name]"
-repository-code: "[GitHub URL]"
+  - family-names: "Hameed"
+    given-names: "Noureen"
+    orcid: "https://orcid.org/0009-0006-2483-5143"
+  - family-names: "Khan"
+    given-names: "Talha Farooq"
+  - family-names: "Hussain"
+    given-names: "Majid"
+  - family-names: "Saeed"
+    given-names: "Shakeel"
+    orcid: "https://orcid.org/0009-0003-0336-6251"
+  - family-names: "Rauf"
+    given-names: "Abdul"
+doi: "10.5281/zenodo.23434518"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23434518"
+    description: "Zenodo archive of the code, trained checkpoints and per-patient results"
+repository-code: "https://github.com/noureen83/PHCVT_BraTS2021"
 license: MIT
 preferred-citation:
   type: article
-  title: "Multi-cohort evaluation of an uncertainty-aware hybrid convolutional–transformer network for glioma segmentation"
+  title: "Hybrid Convolutional–Transformer Glioma Segmentation: Architectural Equivalence and Uncertainty Reliability Under External Distribution Shift"
   authors:
-    - family-names: "[Surname]"
-      given-names: "[Given name]"
+    - family-names: "Hameed"
+      given-names: "Noureen"
+    - family-names: "Khan"
+      given-names: "Talha Farooq"
+    - family-names: "Hussain"
+      given-names: "Majid"
+    - family-names: "Saeed"
+      given-names: "Shakeel"
+    - family-names: "Rauf"
+      given-names: "Abdul"
   journal: "Scientific Reports"
   year: 2026
